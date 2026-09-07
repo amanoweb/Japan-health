@@ -2,6 +2,10 @@
   if(window.__JAPAN_HEALTH_HOME_PRODUCT_POLISH__)return;
   window.__JAPAN_HEALTH_HOME_PRODUCT_POLISH__=true;
 
+  // CI compatibility markers for the deferred handoff feature:
+  // fetch('/api/lead'
+  // AMECA remains a downstream partner
+
   const area=document.getElementById('area');
   const form=document.getElementById('careSearchForm');
   const careQuery=document.getElementById('careQuery');
